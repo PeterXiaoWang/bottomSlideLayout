@@ -9,7 +9,7 @@ PS:
    初始化
 ```
         BottomSlideLayout bottomSlideLayout= (BottomSlideLayout) findViewById(R.id.slide_layout);//初始化这个控件
-        View view= View.inflate(this,R.layout.silde_layout,null);//初始化底部需要画出的layout
+        View view= View.inflate(this,R.layout.silde_layout,null);//初始化底部需要滑出的layout
         bottomSlideLayout.setSlideLayout(view);//将layout加入到控件中
         bottomSlideLayout.setAutoSlideDown(true);//设置为点击阴影处时滑出部分自动消失
 ```
